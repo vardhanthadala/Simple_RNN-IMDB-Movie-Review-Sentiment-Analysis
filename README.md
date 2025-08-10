@@ -1,23 +1,44 @@
 <h1>IMDB Movie Review Sentiment Analysis</h1>
 
+A deep learning-powered web app to classify IMDB movie reviews as Positive or Negative using TensorFlow and Streamlit 🚀
+
 <h3>📌 Overview</h3>
-This project is a Sentiment Analysis Web App that predicts whether a given movie review is Positive or Negative using a deep learning model built with TensorFlow. The app is deployed using Streamlit for an interactive and user-friendly interface.
+This project is a Sentiment Analysis Web Application built using TensorFlow for the machine learning model and Streamlit for the interactive interface.
+It predicts whether a given movie review expresses positive or negative sentiment.
+
+✨ Live Demo: Click Here to Try (Add your deployed app link)
 
 
 <h3>🚀 Features</h3>
-Pretrained TensorFlow sentiment classification model.
-
-Clean and minimal Streamlit UI.
-
-Instant prediction for user-input movie reviews.
-
-Supports both typed text and uploaded text files for review analysis.
+✅ Real-time sentiment prediction for user input
+✅ Upload .txt file for batch predictions
+✅ Clean and responsive Streamlit UI
+✅ Trained on 50,000 IMDB reviews
+✅ Accurate Deep Learning Model with word embeddings
 
 <h3>🛠 Tech Stack </h3>
 Python 3.x
-
 TensorFlow / Keras – Model training & inference
+Streamlit – Web app
+NumPy / Pandas – Data handling
+Matplotlib / Seaborn – Visualization
 
-Streamlit – Web interface
+<h3>📂 Project Structure</h3>
 
-NumPy & Pandas – Data handling
+IMDB-Sentiment-Analysis/
+│
+├── app.py                 # Streamlit app
+├── model/
+│   ├── imdb_model.h5       # Trained model
+│   ├── tokenizer.pkl       # Tokenizer
+│
+├── data/
+│   ├── imdb_reviews.csv    # Dataset (optional)
+│
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
+
+<h3>📊 Dataset</h3>
+We use the IMDB Movie Review Dataset from Keras Datasets, containing 50,000 labeled reviews:
+✅ 25k Training (balanced positive/negative)
+✅ 25k Testing
