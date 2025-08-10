@@ -6,7 +6,7 @@ A deep learning-powered web app to classify IMDB movie reviews as Positive or Ne
 This project is a Sentiment Analysis Web Application built using TensorFlow for the machine learning model and Streamlit for the interactive interface.
 It predicts whether a given movie review expresses positive or negative sentiment.
 
-✨ Live Demo: Click Here to Try (Add your deployed app link)
+✨ Live Demo: simplernn-imdb-movie-review-sentiment-analysis-bafgpsehxndqbnc.streamlit.app
 
 
 <h3>🚀 Features</h3>
